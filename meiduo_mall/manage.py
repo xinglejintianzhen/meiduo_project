@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# 创建的数据库用户名为lufei, 密码,123456
+
 """Django's command-line utility for administrative tasks."""
 import os
 import sys

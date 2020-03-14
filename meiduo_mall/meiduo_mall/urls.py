@@ -24,5 +24,6 @@ urlpatterns = [
     re_path(r'^', include(('contents.urls', 'contents'), namespace='contents')),
     re_path(r'^', include(('verifications.urls', 'verifications'), namespace='verifications')),
     re_path(r'^', include(('oauth.urls', 'oauth'), namespace='oauth')),
+    re_path(r'^', include(('areas.urls', 'areas'), namespace='areas')),
 
 ]

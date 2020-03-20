@@ -249,3 +249,7 @@ EMAIL_FROM = '美多商城<wjiajin333@yeah.net>'  # 发件人抬头
 
 # 邮箱验证链接
 EMAIL_VERIFY_URL = 'http://www.meiduo.site:8000/emails/verification/'
+
+DEFAULT_FILE_STORAGE = 'meiduo_mall.utils.fastdfs.fdfs_storage.FastDFSStorage'
+
+FDFS_BASE_URL = 'http://10.0.10.29:8888/'
